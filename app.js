@@ -1,10 +1,12 @@
+import dotenv from "dotenv"
 import express from "express"
 import connectDB from "./db/db.js"
 import HttpError from "./middleware/HttpError.js"
 import route from "./route/bookRouter.js"
 
+dotenv.config();
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000
 
 // Parse JSON body from requests
 app.use(express.json())
