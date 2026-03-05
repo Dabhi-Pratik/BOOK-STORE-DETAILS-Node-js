@@ -45,7 +45,7 @@ Book-Store/
 
 ### 1️⃣ Clone Repository
 
-```bash
+
 git clone https://github.com/your-username/book-store-api.git
 cd book-store-api
 
@@ -137,4 +137,5 @@ Collection: books
 ✔ RESTful API design
 ✔ Easy to extend
 ✔ Beginner-friendly project
+
 
